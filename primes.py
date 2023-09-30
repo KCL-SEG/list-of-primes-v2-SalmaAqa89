@@ -1,7 +1,9 @@
 """List of prime numbers generator."""
 """ENTER YOUR SOLUTION HERE!"""
+
+
 def primes(number_of_primes):
-    if number_of_primes == 0 or number_of_primes < 0:
+    if number_of_primes <= 0:
         raise ValueError(f"number_of_primes= {number_of_primes} should not be negative or 0")
     list = []
     i = 2
